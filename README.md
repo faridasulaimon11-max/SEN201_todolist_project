@@ -15,6 +15,7 @@ Delete tasks
 Mark tasks as completed
 Display tasks
 Output: Project Plan, Feasibility Report
+
 2.Software Requirement Specification (SRS)
 Functional Requirements
 Users can add tasks
@@ -26,6 +27,7 @@ Easy to use
 Fast response time
 Data stored persistently
 Output: SRS Document
+
 3.System Design
 Frontend: Command Line Interface (CLI)
 Backend: Python
@@ -35,20 +37,24 @@ id (INTEGER, Primary Key)
 title (TEXT)
 completed (INTEGER)
 Output: Design Document Specification (DDS)
+
 4.Development (Coding)
 Implemented using Python classes and functions
 SQLite used for database operations
 Menu-driven CLI interface
 Output: Source Code (todo.py)
+
 5.Testing
 Tested adding, deleting, updating, and displaying tasks
 Ensured database persistence
 Verified correct menu operation
 Output: Test Cases, Bug Reports, Quality Report
+
 6.  Deployment
 Application runs locally using Python
 Can be shared as a .py file or packaged as an executable
-Output: Working Application
+output: Working Application
+
 7. Maintenance
 Bugs can be fixed as they arise
 Features such as task deadlines or priority can be added
